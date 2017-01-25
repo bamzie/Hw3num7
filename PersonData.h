@@ -1,9 +1,6 @@
 //
-//  PersonData.hpp
-//  Hw3num7
-//
-//  Created by Brian Morales on 1/23/17.
-//  Copyright © 2017 Brian Morales. All rights reserved.
+//  Peter Chudinov (pj6593), Brian Moralez (kp5575)
+//  homework 3: 7
 //
 
 #ifndef PersonData_hpp
@@ -63,19 +60,19 @@ public:
     {   phone = num;        }
     
     //Accessors
-    string getLname() 
+    string getLname() const
     {   return lastname;    }
-    string getFname()
+    string getFname() const
     {   return firstname;   }
-    string getAddy()
+    string getAddy() const
     {   return address;     }
-    string getCity()
+    string getCity() const
     {   return city;        }
-    string getState()
+    string getState() const
     {   return state;       }
-    string getZip()
+    string getZip() const
     {   return zip;         }
-    string getPhone()
+    string getPhone() const
     {   return phone;       }
     
 

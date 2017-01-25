@@ -1,9 +1,6 @@
 //
-//  main.cpp
-//  Hw3num7
-//
-//  Created by Brian Morales on 1/23/17.
-//  Copyright © 2017 Brian Morales. All rights reserved.
+//  Peter Chudinov (pj6593), Brian Moralez (kp5575)
+//  homework 3: 4, 5
 //
 
 #include <iostream>
@@ -59,7 +56,7 @@ int main()
         customer1.setZp(name);
         
         cout << "Please enter your phone number(#######): ";
-        getline(cin, name);
+        cin >> name;
         customer1.setPhne(name);
         
         customer1.printinfo();
